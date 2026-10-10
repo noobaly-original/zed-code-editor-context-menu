@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Remove context menu for files
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\OpenWithZed]
+
+; Remove context menu for directories
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\OpenWithZed]
+
+; Remove context menu for background/empty space
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\OpenWithZed]
